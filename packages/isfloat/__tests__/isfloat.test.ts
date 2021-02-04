@@ -7,6 +7,13 @@ describe('@annexe/isfloat', () => {
     expect(isFloat(+0)).toBe(false);
   });
 
+  it('returns FALSE for non-numeric values', () => {
+    expect(isFloat('Lorem Ipsum Dolor Sit Amet')).toBe(false);
+    expect(isFloat('0')).toBe(false);
+    expect(isFloat('-0')).toBe(false);
+    expect(isFloat('+0')).toBe(false);
+  });
+
   it('returns TRUE for numeric values with decimal places', () => {
     expect(isFloat(3.142)).toBe(true);
     expect(isFloat(-3.142)).toBe(true);

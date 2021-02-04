@@ -34,5 +34,8 @@
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
+  },
+  "dependencies": {
+    "@annexe/isnumber": "^0.1.0"
   }
 }

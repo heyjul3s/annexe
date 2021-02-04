@@ -44,6 +44,5 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.14.0"
-  },
-  "name": "annexe"
+  }
 }
