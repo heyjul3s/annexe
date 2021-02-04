@@ -1,11 +1,28 @@
 # `@annexe/isfloat`
 
-> TODO: description
+A Typescript utility function to assert whether a value is a float number type.
+
+## Installation
+
+To install @annexe/isfloat:
+
+Yarn
+
+```sh
+yarn add @annexe/isfloat
+```
+
+NPM
+
+```sh
+npm install @annexe/isfloat
+```
 
 ## Usage
 
-```
-const isfloat = require('@annexe/isfloat');
+```ts
+import { isFloat } from '@annexe/isstring';
 
-// TODO: DEMONSTRATE API
+console.log(isFloat(123)); // logs FALSE
+console.log(isFloat(3.142)); // logs TRUE
 ```

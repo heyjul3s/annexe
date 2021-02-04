@@ -1,11 +1,28 @@
 # `@annexe/isnumber`
 
-> TODO: description
+A Typescript utility function to assert whether a value is a number type.
+
+## Installation
+
+To install @annexe/isnumber:
+
+Yarn
+
+```sh
+yarn add @annexe/isnumber
+```
+
+NPM
+
+```sh
+npm install @annexe/isnumber
+```
 
 ## Usage
 
-```
-const isnumber = require('@annexe/isnumber');
+```ts
+import { isNumber } from '@annexe/isnumber';
 
-// TODO: DEMONSTRATE API
+console.log(isNumber(123)); // logs TRUE
+console.log(isNumber('3.142')); // logs TRUE
 ```
