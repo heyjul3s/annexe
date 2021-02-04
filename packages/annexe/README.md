@@ -1,11 +1,27 @@
 # `annexe`
 
-> TODO: description
+A general, modular Typescript utilities library for your everyday coding.
 
-## Usage
+## Installation
 
+To install annexe:
+
+Yarn
+
+```sh
+yarn add annexe
 ```
-const annexe = require('annexe');
 
-// TODO: DEMONSTRATE API
+NPM
+
+```sh
+npm install annexe
 ```
+
+## Modules
+
+The following modules are available to be installed independently
+
+- @annexe/isfloat
+- @annexe/isnumber
+- @annexe/isstring
