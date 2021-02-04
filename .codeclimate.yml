@@ -1,0 +1,13 @@
+plugins:
+  eslint:
+    enabled: true
+
+exclude_patterns:
+  - 'docs/'
+  - '**/node_modules/'
+  - '**/*.d.ts'
+  - 'dist/'
+  - '__mocks__'
+  - '__tests__'
+  - 'scripts/'
+  - 'script/'

@@ -1,0 +1,40 @@
+{
+  "name": "annexe",
+  "version": "0.1.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Julian Low",
+  "license": "MIT",
+  "sideEffects": false,
+  "module": "dist/annexe.esm.js",
+  "main": "dist/annexe.cjs.js",
+  "src": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.0"
+  },
+  "dependencies": {
+    "@annexe/isfloat": "^0.1.0",
+    "@annexe/isnumber": "^0.1.0",
+    "@annexe/isstring": "^0.1.0"
+  }
+}

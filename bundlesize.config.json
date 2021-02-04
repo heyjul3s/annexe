@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "./packages/annexe/dist/*.js"
+    },
+    {
+      "path": "./packages/isfloat/dist/*.js"
+    },
+    {
+      "path": "./packages/isnumber/dist/*.js"
+    },
+    {
+      "path": "./packages/isstring/dist/*.js"
+    }
+  ]
+}
