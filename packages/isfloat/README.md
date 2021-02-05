@@ -6,13 +6,13 @@ A Typescript utility function to assert whether a value is a float number type.
 
 To install @annexe/isfloat:
 
-Yarn
+### Yarn
 
 ```sh
 yarn add @annexe/isfloat
 ```
 
-NPM
+### NPM
 
 ```sh
 npm install @annexe/isfloat
