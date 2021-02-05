@@ -6,13 +6,13 @@ A general, modular Typescript utilities library for your everyday coding.
 
 To install annexe:
 
-Yarn
+### Yarn
 
 ```sh
 yarn add annexe
 ```
 
-NPM
+### NPM
 
 ```sh
 npm install annexe

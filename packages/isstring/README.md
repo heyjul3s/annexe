@@ -6,13 +6,13 @@ A Typescript utility function to assert whether a value is a string type.
 
 To install @annexe/isstring:
 
-Yarn
+### Yarn
 
 ```sh
 yarn add @annexe/isstring
 ```
 
-NPM
+### NPM
 
 ```sh
 npm install @annexe/isstring

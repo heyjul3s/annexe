@@ -6,13 +6,13 @@ A Typescript utility function to assert whether a value is a number type.
 
 To install @annexe/isnumber:
 
-Yarn
+### Yarn
 
 ```sh
 yarn add @annexe/isnumber
 ```
 
-NPM
+### NPM
 
 ```sh
 npm install @annexe/isnumber
