@@ -41,5 +41,8 @@
     "@annexe/isfloat": "^0.1.0",
     "@annexe/isnumber": "^0.1.0",
     "@annexe/isstring": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
