@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.2"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
     "@annexe/isfloat": "^0.1.1",
