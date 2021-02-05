@@ -1,6 +1,6 @@
 {
   "name": "@annexe/isfloat",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "A Typescript utility function to assert whether a value is a float number type.",
   "keywords": [
     "float",
@@ -38,9 +38,9 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.1"
+    "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/isnumber": "^0.1.1"
+    "@annexe/isnumber": "^0.1.0"
   }
 }
