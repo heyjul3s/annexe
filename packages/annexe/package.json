@@ -1,6 +1,6 @@
 {
   "name": "annexe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A general, modular Typescript utilities library for your everyday coding.",
   "keywords": [
     "modules",
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@annexe/isfloat": "^0.1.0",
-    "@annexe/isnumber": "^0.1.0",
+    "@annexe/isnumber": "^0.1.1",
     "@annexe/isstring": "^0.1.0"
   },
   "publishConfig": {
