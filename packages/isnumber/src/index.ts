@@ -1,7 +1,7 @@
 export function isNumber(value: unknown): boolean {
   return (
-    value !== null &&
-    !isNaN(value as number) &&
-    Number.isFinite(value as number)
+    value != null &&
+    Object.prototype.toString.call(value) === '[object Number]' &&
+    !isNaN(value as number)
   );
 }
