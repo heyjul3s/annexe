@@ -1,4 +1,4 @@
-import { isNil } from '../src/isnil';
+import { isNil } from '../src';
 
 describe('@annexe/isnil', () => {
   it('returns TRUE when provided value is NULL', () => {

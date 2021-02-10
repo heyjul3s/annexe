@@ -38,8 +38,12 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
+    "@annexe/isfinite": "^0.1.0",
     "@annexe/isfloat": "^0.1.0",
+    "@annexe/isnil": "^0.1.0",
+    "@annexe/isnonemptystring": "^0.1.0",
     "@annexe/isnumber": "^0.1.1",
+    "@annexe/isplainobject": "^0.1.0",
     "@annexe/isstring": "^0.1.0"
   },
   "publishConfig": {
