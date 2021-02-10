@@ -23,6 +23,7 @@ npm install @annexe/isnil
 ```ts
 import { isNil } from '@annexe/isnil';
 
-console.log(isNil(123)); // logs TRUE
-console.log(isNil('3.142')); // logs TRUE
+console.log(isNil('3.142')); // logs FALSE
+console.log(isNil(null)); // logs TRUE
+console.log(isNil(undefined)); // logs TRUE
 ```
