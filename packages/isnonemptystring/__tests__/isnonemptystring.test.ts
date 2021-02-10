@@ -1,4 +1,4 @@
-import { isNonEmptyString } from '../src/isnonemptystring';
+import { isNonEmptyString } from '../src';
 
 describe('@annexe/isnonemptystring', () => {
   it('returns TRUE when provided a valid non-empty string value', () => {
