@@ -5,3 +5,4 @@ export { isNil } from '@annexe/isnil';
 export { isFinite } from '@annexe/isfinite';
 export { isNonEmptyString } from '@annexe/isnonemptystring';
 export { isPlainObject } from '@annexe/isplainobject';
+export { isNegative } from '@annexe/isnegative';
