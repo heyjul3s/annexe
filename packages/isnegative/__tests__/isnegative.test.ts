@@ -6,6 +6,7 @@ describe('@annexe/isnegative', () => {
     expect(isNegative('-1')).toEqual(true);
     expect(isNegative(-3.142)).toEqual(true);
     expect(isNegative('-3.142')).toEqual(true);
+    expect(isNegative(-Infinity)).toEqual(true);
   });
 
   it('returns FALSE when given values of 0 or higher', () => {
@@ -16,9 +17,5 @@ describe('@annexe/isnegative', () => {
     expect(isNegative(1)).toEqual(false);
     expect(isNegative(Infinity)).toEqual(false);
     expect(isNegative(BigInt('9007199254740991'))).toEqual(false);
-  });
-
-  it('returns FALSE when given a negative Infinity value', () => {
-    expect(isNegative(-Infinity)).toEqual(false);
   });
 });
