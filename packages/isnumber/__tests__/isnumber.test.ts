@@ -43,6 +43,12 @@ describe('@annexe/isnumber', () => {
     expect(isNumber(3.142)).toBe(true);
   });
 
+  it('should return TRUE for Infinity', () => {
+    expect(isNumber(Infinity)).toBe(true);
+    expect(isNumber(-Infinity)).toBe(true);
+    expect(isNumber(+Infinity)).toBe(true);
+  });
+
   it('should return TRUE for a numeric string casted as number type', () => {
     expect(isNumber(Number('123456'))).toBe(true);
     expect(isNumber(Number('3.142'))).toBe(true);
