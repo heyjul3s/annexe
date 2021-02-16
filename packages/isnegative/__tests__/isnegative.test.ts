@@ -9,6 +9,12 @@ describe('@annexe/isnegative', () => {
     expect(isNegative(-Infinity)).toEqual(true);
   });
 
+  it('returns FALSE when given values that cannot be casted as a number', () => {
+    expect(isNegative(false)).toEqual(false);
+    expect(isNegative(void 0)).toEqual(false);
+    expect(isNegative(null)).toEqual(false);
+  });
+
   it('returns FALSE when given values of 0 or higher', () => {
     expect(isNegative(-0)).toEqual(false);
     expect(isNegative(0)).toEqual(false);
