@@ -1,16 +1,16 @@
 {
-  "name": "@annexe/partial",
+  "name": "@annexe/partialright",
   "version": "0.1.0",
-  "description": "A utility function to partially apply function arguments",
+  "description": "A utility function to partially apply function arguments from the right.",
   "keywords": [
-    "partial application",
+    "partial application right",
     "utilities"
   ],
   "author": "Julian Low",
   "license": "MIT",
   "sideEffects": false,
-  "main": "dist/partial.cjs.js",
-  "module": "dist/partial.esm.js",
+  "main": "dist/partialright.cjs.js",
+  "module": "dist/partialright.esm.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
