@@ -2,11 +2,6 @@ import { partial } from '../src';
 
 describe('@annexe/partial', () => {
   it('partially applies 1 argument', () => {
-    const partialed = partial<number[], number[], number>(void 0, 1);
-    expect(partialed(2)).toEqual(3);
-  });
-
-  it('partially applies 1 argument', () => {
     const test = (a, b) => a + b;
     const partialed = partial<number[], number[], number>(test, 1);
     expect(partialed(2)).toEqual(3);
