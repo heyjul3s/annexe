@@ -1,3 +1,3 @@
-export function isNil(value: unknown) {
+export function isNil(value: unknown): boolean {
   return value == null;
 }
