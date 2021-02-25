@@ -3,10 +3,10 @@ type FnArgs = readonly unknown[];
 export function partial<
   ArgsToApply extends FnArgs,
   OtherArgs extends FnArgs,
-  ReturnType
+  ReturnValue
 >(
-  fn: (...args: [...ArgsToApply, ...OtherArgs]) => ReturnType,
+  fn: (...args: [...ArgsToApply, ...OtherArgs]) => ReturnValue,
   ...firstArgs: ArgsToApply
-): (...lastArgs: OtherArgs) => ReturnType {
+): (...lastArgs: OtherArgs) => ReturnValue {
   return (...lastArgs: OtherArgs) => fn(...firstArgs, ...lastArgs);
 }
