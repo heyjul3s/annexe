@@ -21,7 +21,7 @@ npm install @annexe/isfloat
 ## Usage
 
 ```ts
-import { isFloat } from '@annexe/isstring';
+import { isFloat } from '@annexe/isfloat';
 
 console.log(isFloat(123)); // logs FALSE
 console.log(isFloat(3.142)); // logs TRUE
