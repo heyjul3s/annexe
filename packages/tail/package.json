@@ -1,7 +1,7 @@
 {
   "name": "@annexe/tail",
   "version": "0.1.0",
-  "description": "A utility function to get the tail of an array.",
+  "description": "A utility function that returns all but the first element of an array.",
   "keywords": [
     "tail",
     "array",
