@@ -7,8 +7,7 @@ module.exports = {
   extends: [
     // Uses the recommended rules from the @typescript-eslint/eslint-plugin
     'plugin:@typescript-eslint/recommended',
-    // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
-    'plugin:prettier/recommended'
+    'prettier'
   ],
   settings: {
     react: {
