@@ -1,3 +1,3 @@
-export function tail<T extends any[]>([, ...tailValues]: T[]): T[] {
+export function tail<T>([, ...tailValues]: T[]): T[] {
   return tailValues;
 }
