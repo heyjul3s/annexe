@@ -1,7 +1,7 @@
 {
   "name": "@annexe/isweakmap",
   "version": "0.1.0",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "A utility function to validate if a value is a Weak Map type",
   "keywords": [
     "weak map",
     "utilities"
