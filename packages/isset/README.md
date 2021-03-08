@@ -1,11 +1,28 @@
 # `@annexe/isset`
 
-> TODO: description
+A utility function to check if a value is of Set type.
+
+## Installation
+
+To install @annexe/isset
+
+### Yarn
+
+```sh
+yarn add @annexe/isset
+```
+
+### NPM
+
+```sh
+npm install @annexe/isset
+```
 
 ## Usage
 
-```
-const isset = require('@annexe/isset');
+```ts
+import { isSet } from '@annexe/isset';
 
-// TODO: DEMONSTRATE API
+console.log(isSet(123)); // logs FALSE
+console.log(isSet(new Set([1, 2, 3])); // logs TRUE
 ```
