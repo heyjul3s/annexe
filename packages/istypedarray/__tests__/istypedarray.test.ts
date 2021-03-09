@@ -1,8 +1,18 @@
 import { isTypedArray } from '../src';
 
 describe('@annexe/istypedarray', () => {
-  it('returns TRUE when give a Int8Array as value', () => {
+  it('returns TRUE when given a TypedArray as value', () => {
     expect(isTypedArray(new Int8Array())).toEqual(true);
+    expect(isTypedArray(new Uint8Array())).toEqual(true);
+    expect(isTypedArray(new Uint8ClampedArray())).toEqual(true);
+    expect(isTypedArray(new Int16Array())).toEqual(true);
+    expect(isTypedArray(new Uint16Array())).toEqual(true);
+    expect(isTypedArray(new Int32Array())).toEqual(true);
+    expect(isTypedArray(new Uint32Array())).toEqual(true);
+    expect(isTypedArray(new Float32Array())).toEqual(true);
+    expect(isTypedArray(new Float64Array())).toEqual(true);
+    expect(isTypedArray(new BigInt64Array())).toEqual(true);
+    expect(isTypedArray(new BigUint64Array())).toEqual(true);
   });
 
   it('returns FALSE when give false-like values', () => {

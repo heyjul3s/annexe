@@ -1,6 +1,6 @@
 # `@annexe/istypedarray`
 
-A function to check if value is a typed Int8Array.
+A function to check if value is a TypedArray.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "@annexe/istypedarray",
   "version": "0.1.0",
-  "description": "A function to check if value is a typed Int8Array.",
+  "description": "A function to check if value is a TypedArray.",
   "keywords": [
     "array",
     "typed array",
