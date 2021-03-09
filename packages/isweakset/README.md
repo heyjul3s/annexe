@@ -1,11 +1,28 @@
 # `@annexe/isweakset`
 
-> TODO: description
+A utility function to check if a value is of Weak Set type.
+
+## Installation
+
+To install @annexe/isweakset
+
+### Yarn
+
+```sh
+yarn add @annexe/isweakset
+```
+
+### NPM
+
+```sh
+npm install @annexe/isweakset
+```
 
 ## Usage
 
-```
-const isweakset = require('@annexe/isweakset');
+```ts
+import { isWeakSet } from '@annexe/isweakset';
 
-// TODO: DEMONSTRATE API
+console.log(isSet(123)); // logs FALSE
+console.log(isSet(new WeakSet()); // logs TRUE
 ```
