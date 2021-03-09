@@ -2,10 +2,27 @@
 
 A function to check if value is a typed Int8Array.
 
+## Installation
+
+To install @annexe/istypedarray
+
+### Yarn
+
+```sh
+yarn add @annexe/istypedarray
+```
+
+### NPM
+
+```sh
+npm install @annexe/istypedarray
+```
+
 ## Usage
 
-```
-const istypedarray = require('@annexe/istypedarray');
+```ts
+import { isTypedArray } from '@annexe/istypedarray';
 
-// TODO: DEMONSTRATE API
+console.log(isTypedArray(123)); // logs FALSE
+console.log(isTypedArray(new Int8Array()); // logs TRUE
 ```
