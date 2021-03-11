@@ -1,5 +1,5 @@
 {
-  "name": "@annexe/head",
+  "name": "@annexe/first",
   "version": "0.1.0",
   "description": "A utility function to acquire the first item in an array.",
   "keywords": [
@@ -10,8 +10,8 @@
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "module": "dist/head.esm.js",
-  "main": "dist/head.cjs.js",
+  "module": "dist/first.esm.js",
+  "main": "dist/first.cjs.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
