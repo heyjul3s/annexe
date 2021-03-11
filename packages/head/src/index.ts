@@ -1,3 +1,3 @@
-export function head<T extends any>([headValue]: T[]): T {
-  return headValue;
+export function head<T>(value: T[]): T | undefined {
+  return Array.isArray(value) && value.length ? value[0] : void 0;
 }
