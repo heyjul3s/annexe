@@ -13,5 +13,5 @@ export { isNegative } from '@annexe/isnegative';
 export { partial } from '@annexe/partial';
 export { partialRight } from '@annexe/partialright';
 export { reverse } from '@annexe/reverse';
-export { head } from '@annexe/head';
+export { first } from '@annexe/first';
 export { tail } from '@annexe/tail';

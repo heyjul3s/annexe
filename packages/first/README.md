@@ -1,29 +1,29 @@
-# `@annexe/head`
+# `@annexe/first`
 
 A utility function to acquire and return the first value in an array.
 
 ## Installation
 
-To install @annexe/head:
+To install @annexe/first:
 
 ### Yarn
 
 ```sh
-yarn add @annexe/head
+yarn add @annexe/first
 ```
 
 ### NPM
 
 ```sh
-npm install @annexe/head
+npm install @annexe/first
 ```
 
 ## Usage
 
 ```ts
-import { head } from '@annexe/head';
+import { first } from '@annexe/first';
 
 const myArray = [1, 2, 3, 4, 5];
 
-console.log(head<number>(myArray)); // logs 1
+console.log(first<number>(myArray)); // logs 1
 ```

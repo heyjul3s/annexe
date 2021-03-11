@@ -1,7 +1,7 @@
-import { head } from '@annexe/head';
+import { first } from '@annexe/first';
 
 export function last<T>(value: T[]): T | undefined {
   return Array.isArray(value) && value.length
-    ? head<T>(value.slice(-1))
+    ? first<T>(value.slice(-1))
     : void 0;
 }

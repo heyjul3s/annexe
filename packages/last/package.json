@@ -40,6 +40,6 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/head": "^0.1.0"
+    "@annexe/first": "^0.1.0"
   }
 }

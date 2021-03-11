@@ -38,7 +38,7 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/head": "^0.1.0",
+    "@annexe/first": "^0.1.0",
     "@annexe/isarray": "^0.1.0",
     "@annexe/isfinite": "^0.1.0",
     "@annexe/isfloat": "^0.1.0",
