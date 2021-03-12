@@ -29,7 +29,8 @@
     "url": "git+https://github.com/heyjul3s/annexe.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
   },
   "bugs": {
     "url": "https://github.com/heyjul3s/annexe/issues"
