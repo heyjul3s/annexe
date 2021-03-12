@@ -1,0 +1,41 @@
+{
+  "name": "@annexe/difference",
+  "version": "0.1.0",
+  "description": "Creates a new array of values that does not exist in inspected array.",
+  "keywords": [
+    "difference",
+    "array",
+    "utilities",
+    "util"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "module": "dist/difference.esm.js",
+  "main": "dist/difference.cjs.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.0"
+  }
+}
