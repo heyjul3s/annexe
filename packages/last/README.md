@@ -2,10 +2,27 @@
 
 A function to get the last element in an array.
 
+## Installation
+
+To install @annexe/last:
+
+### Yarn
+
+```sh
+yarn add @annexe/last
+```
+
+### NPM
+
+```sh
+npm install @annexe/last
+```
+
 ## Usage
 
-```
-const last = require('@annexe/last');
+```ts
+import { last } from '@annexe/last';
 
-// TODO: DEMONSTRATE API
+const myArray = [1, 2, 3, 4, 5];
+console.log(last(myArray)); // prints 5
 ```
