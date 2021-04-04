@@ -10,4 +10,9 @@ describe('@annexe/tail', () => {
     const testArray = [1, 2, 3, 4, 5];
     expect(tail<number>(testArray)).toEqual([2, 3, 4, 5]);
   });
+
+  it('slices the array when provided an index', () => {
+    const myArray = [1, 2, 3, 4, 5];
+    expect(tail(myArray, 2)).toEqual([3, 4, 5]);
+  });
 });
