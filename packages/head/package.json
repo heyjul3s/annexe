@@ -1,0 +1,42 @@
+{
+  "name": "@annexe/head",
+  "version": "0.1.0",
+  "description": "A function that returns the first element as an array and optionally to a specified index.",
+  "keywords": [
+    "head",
+    "array",
+    "utilities"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/head.cjs.js",
+  "module": "dist/head.esm.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.0"
+  }
+}
