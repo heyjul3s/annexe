@@ -1,16 +1,16 @@
 {
   "name": "@annexe/array",
   "version": "0.1.0",
-  "description": "All array methods from the Annexe library under namespace array.",
+  "description": "All annexe array methods under namespace \"array\".",
   "keywords": [
     "array",
-    "utilities"
+    "utilities",
+    "util"
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "sideEffects": false,
-  "main": "dist/array.cjs.js",
   "module": "dist/array.esm.js",
+  "main": "dist/array.cjs.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -28,20 +28,21 @@
     "url": "git+https://github.com/heyjul3s/annexe.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
   },
   "bugs": {
     "url": "https://github.com/heyjul3s/annexe/issues"
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
-  "dependencies": {
-    "first": "^0.0.3",
-    "head": "^1.0.0",
-    "last": "^1.1.0",
-    "reverse": "^4.0.1",
-    "tail": "^2.2.1"
-  },
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
+  },
+  "dependencies": {
+    "@annexe/array.first": "^0.1.0",
+    "@annexe/array.head": "^0.1.0",
+    "@annexe/array.last": "^0.1.0",
+    "@annexe/array.reverse": "^0.1.0",
+    "@annexe/array.tail": "^0.1.0"
   }
 }

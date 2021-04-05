@@ -1,11 +1,11 @@
 # `@annexe/array`
 
-A collection of all available Annexe array methods under namespace "array".
+> TODO: description
 
-## Methods
+## Usage
 
-- head
-- tail
-- first
-- last
-- reverse
+```
+const array = require('@annexe/array');
+
+// TODO: DEMONSTRATE API
+```

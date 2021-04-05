@@ -1,7 +1,7 @@
 {
   "name": "@annexe/types",
-  "version": "0.1.0",
-  "description": "A collection of all Annexe type checking functions under the namespace types.",
+  "version": "1.0.0",
+  "description": "All annexe type checking functions under namespace \"types\".",
   "keywords": [
     "types",
     "utilities"
@@ -35,22 +35,22 @@
     "url": "https://github.com/heyjul3s/annexe/issues"
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
-  "dependencies": {
-    "@annexe/isarray": "^0.1.0",
-    "@annexe/isfinite": "^0.1.0",
-    "@annexe/isfloat": "^0.1.0",
-    "@annexe/ismap": "^0.1.0",
-    "@annexe/isnegative": "^1.0.0",
-    "@annexe/isnil": "^0.1.0",
-    "@annexe/isnonemptystring": "^0.1.0",
-    "@annexe/isnumber": "^0.1.1",
-    "@annexe/isplainobject": "^0.1.0",
-    "@annexe/isset": "^0.1.0",
-    "@annexe/isstring": "^0.1.0",
-    "@annexe/isweakmap": "^0.1.0",
-    "@annexe/isweakset": "^1.0.0"
-  },
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
+  },
+  "dependencies": {
+    "@annexe/types.isarray": "^0.1.0",
+    "@annexe/types.isfinite": "^0.1.0",
+    "@annexe/types.isfloat": "^0.1.0",
+    "@annexe/types.ismap": "^0.1.0",
+    "@annexe/types.isnil": "^0.1.0",
+    "@annexe/types.isnonemptystring": "^0.1.0",
+    "@annexe/types.isnumber": "^0.1.1",
+    "@annexe/types.isplainobject": "^0.1.0",
+    "@annexe/types.isset": "^0.1.0",
+    "@annexe/types.isstring": "^0.1.0",
+    "@annexe/types.istypedarray": "^0.1.0",
+    "@annexe/types.isweakmap": "^0.1.0",
+    "@annexe/types.isweakset": "^1.0.0"
   }
 }

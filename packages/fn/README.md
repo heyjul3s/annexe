@@ -1,11 +1,11 @@
-# `@annexe/types`
+# `@annexe/fn`
 
 > TODO: description
 
 ## Usage
 
 ```
-const types = require('@annexe/types');
+const fn = require('@annexe/fn');
 
 // TODO: DEMONSTRATE API
 ```
