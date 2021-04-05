@@ -4,13 +4,79 @@
       "path": "./packages/annexe/dist/*.js"
     },
     {
-      "path": "./packages/isfloat/dist/*.js"
+      "path": "./packages/fn/dist/*.js"
     },
     {
-      "path": "./packages/isnumber/dist/*.js"
+      "path": "./packages/fn.partial/dist/*.js"
     },
     {
-      "path": "./packages/isstring/dist/*.js"
+      "path": "./packages/fn.partialright/dist/*.js"
+    },
+    {
+      "path": "./packages/array/dist/*.js"
+    },
+    {
+      "path": "./packages/array.first/dist/*.js"
+    },
+    {
+      "path": "./packages/array.last/dist/*.js"
+    },
+    {
+      "path": "./packages/array.head/dist/*.js"
+    },
+    {
+      "path": "./packages/array.tail/dist/*.js"
+    },
+    {
+      "path": "./packages/array.reverse/dist/*.js"
+    },
+    {
+      "path": "./packages/types/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isarray/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isfinite/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isfloat/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isfloat/dist/*.js"
+    },
+    {
+      "path": "./packages/types.ismap/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isnil/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isnonemptystring/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isnumber/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isplainobject/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isset/dist/*.js"
+    },
+    {
+      "path": "./packages/types.istypedarray/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isweakmap/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isweakset/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isnumber/dist/*.js"
+    },
+    {
+      "path": "./packages/types.isstring/dist/*.js"
     }
   ]
 }
