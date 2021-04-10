@@ -1,3 +1,10 @@
-export { default as types } from '@annexe/types';
 export { default as array } from '@annexe/array';
 export { default as fn } from '@annexe/fn';
+export { default as map } from '@annexe/map';
+export { default as nowt } from '@annexe/nowt';
+export { default as number } from '@annexe/number';
+export { default as object } from '@annexe/object';
+export { default as set } from '@annexe/set';
+export { default as string } from '@annexe/string';
+export { default as weakMap } from '@annexe/weakMap';
+export { default as weakSet } from '@annexe/weakset';

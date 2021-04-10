@@ -1,6 +1,6 @@
 # `@annexe/head`
 
-A function that returns the first element as an array and optionally to a specified index.
+A function that returns the first element as an array and optionally to a specified index. You can also provide an index to where you want it to stop at as a second argument.
 
 ## Usage
 

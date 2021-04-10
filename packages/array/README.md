@@ -1,11 +1,24 @@
 # `@annexe/array`
 
-> TODO: description
+@annexe/array houses all annexe array methods under the array namespace.
+
+## Methods
+
+The following are available methods under the array namespace:
+
+- first
+- last
+- head
+- tail
+- reverse
+- isTypedArray
 
 ## Usage
 
-```
-const array = require('@annexe/array');
+```ts
+import array from '@annexe/array';
 
-// TODO: DEMONSTRATE API
+const myArray = [1, 2, 3, 4, 5];
+const firstVal = array.first(myArray);
+console.log(firstVal); // logs 1
 ```

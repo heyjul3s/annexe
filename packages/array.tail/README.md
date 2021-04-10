@@ -1,6 +1,6 @@
 # `@annexe/tail`
 
-A utility function that returns all but the first element of an array.
+A utility function that returns all but the first element of an array by default. You can also provide an index to where you want it to stop at as a second argument.
 
 ## Installation
 
