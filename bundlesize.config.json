@@ -1,6 +1,9 @@
 {
   "files": [
     {
+      "path": "./packages/annexe/dist/*.js"
+    },
+    {
       "path": "./packages/fn/dist/*.js"
     },
     {
@@ -85,13 +88,13 @@
       "path": "./packages/weakmap/dist/*.js"
     },
     {
-      "path": "./packages/types.isweakmap/dist/*.js"
+      "path": "./packages/weakmap.isweakmap/dist/*.js"
     },
     {
       "path": "./packages/weakset/dist/*.js"
     },
     {
-      "path": "./packages/types.isweakset/dist/*.js"
+      "path": "./packages/weakset.isweakset/dist/*.js"
     }
   ]
 }
