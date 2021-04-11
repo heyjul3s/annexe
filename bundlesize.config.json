@@ -1,9 +1,6 @@
 {
   "files": [
     {
-      "path": "./packages/annexe/dist/*.js"
-    },
-    {
       "path": "./packages/fn/dist/*.js"
     },
     {
