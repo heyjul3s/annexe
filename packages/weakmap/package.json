@@ -37,5 +37,8 @@
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
+  },
+  "dependencies": {
+    "@annexe/weakmap.isweakmap": "^0.1.0"
   }
 }
