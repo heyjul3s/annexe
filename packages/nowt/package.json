@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "All annexe nowt utility functions under namespace \"nowt\".",
   "keywords": [
-    "types",
+    "nowt",
+    "null",
+    "void",
+    "undefined",
     "utilities"
   ],
   "author": "Julian Low",

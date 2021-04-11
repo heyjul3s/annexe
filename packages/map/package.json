@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe map utility functions under namespace \"map\".",
   "keywords": [
-    "types",
+    "map",
     "utilities"
   ],
   "author": "Julian Low",

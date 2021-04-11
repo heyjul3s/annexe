@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe weakmap utility functions under namespace \"weakmap\".",
   "keywords": [
-    "types",
+    "weakmap",
     "utilities"
   ],
   "author": "Julian Low",

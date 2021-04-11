@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "A utility function to validate if a value is undefined",
   "keywords": [
-    "null",
-    "undefined",
+    "nowt",
     "void",
+    "undefined",
     "utilities",
     "util"
   ],

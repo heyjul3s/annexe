@@ -1,10 +1,9 @@
 {
   "name": "@annexe/weakset.isweakset",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A utility function to check if a value is of Weak Set type.",
   "keywords": [
-    "set",
-    "weak set",
+    "weakset",
     "utilities"
   ],
   "author": "Julian Low",

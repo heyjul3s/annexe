@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe set utility functions under namespace \"set\".",
   "keywords": [
-    "types",
+    "set",
     "utilities"
   ],
   "author": "Julian Low",

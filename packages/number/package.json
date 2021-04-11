@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe number utility functions under namespace \"number\".",
   "keywords": [
-    "types",
+    "number",
     "utilities"
   ],
   "author": "Julian Low",

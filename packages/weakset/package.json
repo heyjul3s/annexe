@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe weakset utility functions under namespace \"weakset\".",
   "keywords": [
-    "types",
+    "weakset",
     "utilities"
   ],
   "author": "Julian Low",
@@ -39,6 +39,6 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/weakset.isweakset": "^1.0.0"
+    "@annexe/weakset.isweakset": "^0.1.0"
   }
 }

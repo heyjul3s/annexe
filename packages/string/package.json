@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe string utility functions under namespace \"string\".",
   "keywords": [
-    "types",
+    "string",
     "utilities"
   ],
   "author": "Julian Low",

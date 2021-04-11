@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "All annexe object utility functions under namespace \"object\".",
   "keywords": [
-    "types",
+    "object",
     "utilities"
   ],
   "author": "Julian Low",
