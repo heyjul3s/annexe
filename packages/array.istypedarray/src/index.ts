@@ -15,7 +15,7 @@ export function isTypedArray(value: unknown): boolean {
 
   const VALUE_TYPE_REGEX = /([^\[object\s]\w*)/;
   const prototypeValue = Object.prototype.toString.call(value);
-  const valueType = prototypeValue.match(VALUE_TYPE_REGEX)![0];
+  const valueType = prototypeValue.match(VALUE_TYPE_REGEX);
 
-  return typedArrayTypes.has(valueType);
+  return !!valueType ? typedArrayTypes.has(valueType[0]) : false;
 }
