@@ -1,16 +1,17 @@
 {
-  "name": "@annexe/array",
+  "name": "@annexe/array.last",
   "version": "0.1.0",
-  "description": "All annexe array methods under namespace \"array\".",
+  "description": "A function to get the last element in an array.",
   "keywords": [
     "array",
-    "utilities",
-    "util"
+    "last",
+    "utilities"
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "module": "dist/array.esm.js",
-  "main": "dist/array.cjs.js",
+  "sideEffects": false,
+  "main": "dist/array.last.cjs.js",
+  "module": "dist/array.last.esm.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -38,12 +39,5 @@
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
   },
-  "dependencies": {
-    "@annexe/array.first": "^0.1.0",
-    "@annexe/array.head": "^0.1.0",
-    "@annexe/array.istypedarray": "^0.1.0",
-    "@annexe/array.last": "^0.1.0",
-    "@annexe/array.reverse": "^0.1.0",
-    "@annexe/array.tail": "^0.1.0"
-  }
+  "dependencies": {}
 }

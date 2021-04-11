@@ -1,16 +1,16 @@
 {
-  "name": "@annexe/array",
+  "name": "@annexe/fn",
   "version": "0.1.0",
-  "description": "All annexe array methods under namespace \"array\".",
+  "description": "All annexe function methods under namespace \"fn\".",
   "keywords": [
-    "array",
+    "function",
     "utilities",
     "util"
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "module": "dist/array.esm.js",
-  "main": "dist/array.cjs.js",
+  "module": "dist/fn.esm.js",
+  "main": "dist/fn.cjs.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -39,11 +39,7 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/array.first": "^0.1.0",
-    "@annexe/array.head": "^0.1.0",
-    "@annexe/array.istypedarray": "^0.1.0",
-    "@annexe/array.last": "^0.1.0",
-    "@annexe/array.reverse": "^0.1.0",
-    "@annexe/array.tail": "^0.1.0"
+    "@annexe/fn.partial": "^0.1.0",
+    "@annexe/fn.partialright": "^0.1.0"
   }
 }

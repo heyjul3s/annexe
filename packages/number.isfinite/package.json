@@ -1,16 +1,19 @@
 {
-  "name": "@annexe/array",
+  "name": "@annexe/number.isfinite",
   "version": "0.1.0",
-  "description": "All annexe array methods under namespace \"array\".",
+  "description": "A utility function to check whether a number value is finite.",
   "keywords": [
-    "array",
+    "number",
+    "float",
+    "integer",
+    "finite",
     "utilities",
     "util"
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "module": "dist/array.esm.js",
-  "main": "dist/array.cjs.js",
+  "module": "dist/number.isfinite.esm.js",
+  "main": "dist/number.isfinite.cjs.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -39,11 +42,6 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/array.first": "^0.1.0",
-    "@annexe/array.head": "^0.1.0",
-    "@annexe/array.istypedarray": "^0.1.0",
-    "@annexe/array.last": "^0.1.0",
-    "@annexe/array.reverse": "^0.1.0",
-    "@annexe/array.tail": "^0.1.0"
+    "@annexe/number.isnumber": "^0.1.1"
   }
 }

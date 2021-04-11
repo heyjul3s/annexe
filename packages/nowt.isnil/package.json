@@ -1,16 +1,20 @@
 {
-  "name": "@annexe/array",
+  "name": "@annexe/nowt.isnil",
   "version": "0.1.0",
-  "description": "All annexe array methods under namespace \"array\".",
+  "description": "A utility function to validate if a value is null or undefined",
   "keywords": [
-    "array",
+    "nowt",
+    "null",
+    "void",
+    "undefined",
     "utilities",
     "util"
   ],
   "author": "Julian Low",
   "license": "MIT",
-  "module": "dist/array.esm.js",
-  "main": "dist/array.cjs.js",
+  "sideEffects": false,
+  "module": "dist/nowt.isnil.esm.js",
+  "main": "dist/nowt.isnil.cjs.js",
   "src": "src/index.ts",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -37,13 +41,5 @@
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
     "@annexe/bundler": "^0.1.0"
-  },
-  "dependencies": {
-    "@annexe/array.first": "^0.1.0",
-    "@annexe/array.head": "^0.1.0",
-    "@annexe/array.istypedarray": "^0.1.0",
-    "@annexe/array.last": "^0.1.0",
-    "@annexe/array.reverse": "^0.1.0",
-    "@annexe/array.tail": "^0.1.0"
   }
 }

@@ -1,20 +1,19 @@
 {
-  "name": "annexe",
-  "version": "0.1.1",
-  "description": "A general, modular Typescript utilities library for your everyday coding.",
+  "name": "@annexe/string.isemptystring",
+  "version": "0.1.0",
+  "description": "A utility function to check if a string is empty.",
   "keywords": [
-    "modules",
+    "string",
     "utilities",
-    "util",
-    "utils"
+    "util"
   ],
   "author": "Julian Low",
   "license": "MIT",
   "sideEffects": false,
-  "module": "dist/annexe.esm.js",
-  "main": "dist/annexe.cjs.js",
+  "module": "dist/string.isemptystring.esm.js",
+  "main": "dist/string.isemptystring.cjs.js",
   "src": "src/index.ts",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -22,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heyjul3s/annexe.git"
@@ -38,18 +40,6 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/array": "^0.1.0",
-    "@annexe/fn": "^0.1.0",
-    "@annexe/map": "^0.1.0",
-    "@annexe/nowt": "^0.1.0",
-    "@annexe/number": "^0.1.0",
-    "@annexe/object": "^0.1.0",
-    "@annexe/set": "^0.1.0",
-    "@annexe/string": "^0.1.0",
-    "@annexe/weakmap": "^0.1.0",
-    "@annexe/weakset": "^0.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@annexe/string.isstring": "^0.1.0"
   }
 }

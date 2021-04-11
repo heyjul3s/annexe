@@ -1,20 +1,21 @@
 {
-  "name": "annexe",
-  "version": "0.1.1",
-  "description": "A general, modular Typescript utilities library for your everyday coding.",
+  "name": "@annexe/nowt",
+  "version": "0.1.0",
+  "description": "All annexe nowt utility functions under namespace \"nowt\".",
   "keywords": [
-    "modules",
-    "utilities",
-    "util",
-    "utils"
+    "nowt",
+    "null",
+    "void",
+    "undefined",
+    "utilities"
   ],
   "author": "Julian Low",
   "license": "MIT",
   "sideEffects": false,
-  "module": "dist/annexe.esm.js",
-  "main": "dist/annexe.cjs.js",
+  "main": "dist/nowt.cjs.js",
+  "module": "dist/nowt.esm.js",
   "src": "src/index.ts",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -22,6 +23,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heyjul3s/annexe.git"
@@ -38,18 +42,8 @@
     "@annexe/bundler": "^0.1.0"
   },
   "dependencies": {
-    "@annexe/array": "^0.1.0",
-    "@annexe/fn": "^0.1.0",
-    "@annexe/map": "^0.1.0",
-    "@annexe/nowt": "^0.1.0",
-    "@annexe/number": "^0.1.0",
-    "@annexe/object": "^0.1.0",
-    "@annexe/set": "^0.1.0",
-    "@annexe/string": "^0.1.0",
-    "@annexe/weakmap": "^0.1.0",
-    "@annexe/weakset": "^0.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@annexe/nowt.isnil": "^0.1.0",
+    "@annexe/nowt.isnull": "^0.1.0",
+    "@annexe/nowt.isundefined": "^0.1.0"
   }
 }
