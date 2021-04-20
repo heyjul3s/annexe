@@ -1,6 +1,6 @@
 {
   "name": "@annexe/array.reverse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Immutable array order reversal function.",
   "keywords": [
     "array",
@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   }
 }

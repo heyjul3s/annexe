@@ -1,6 +1,6 @@
 {
   "name": "@annexe/array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All annexe array methods under namespace \"array\".",
   "keywords": [
     "array",
@@ -36,14 +36,14 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/array.first": "^0.1.0",
-    "@annexe/array.head": "^0.1.0",
-    "@annexe/array.istypedarray": "^0.1.0",
-    "@annexe/array.last": "^0.1.0",
-    "@annexe/array.reverse": "^0.1.0",
-    "@annexe/array.tail": "^0.1.0"
+    "@annexe/array.first": "^0.1.1",
+    "@annexe/array.head": "^0.1.1",
+    "@annexe/array.istypedarray": "^0.1.1",
+    "@annexe/array.last": "^0.1.1",
+    "@annexe/array.reverse": "^0.1.1",
+    "@annexe/array.tail": "^0.1.1"
   }
 }

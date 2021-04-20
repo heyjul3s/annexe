@@ -1,6 +1,6 @@
 {
   "name": "@annexe/fn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All annexe function methods under namespace \"fn\".",
   "keywords": [
     "function",
@@ -36,10 +36,10 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/fn.partial": "^0.1.0",
-    "@annexe/fn.partialright": "^0.1.0"
+    "@annexe/fn.partial": "^0.1.1",
+    "@annexe/fn.partialright": "^0.1.1"
   }
 }

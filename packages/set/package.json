@@ -1,6 +1,6 @@
 {
   "name": "@annexe/set",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All annexe set utility functions under namespace \"set\".",
   "keywords": [
     "set",
@@ -36,9 +36,9 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/set.isset": "^0.1.0"
+    "@annexe/set.isset": "^0.1.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@annexe/fn.partialright",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility function to partially apply function arguments from the right.",
   "keywords": [
     "partial application right",
@@ -36,6 +36,6 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@annexe/nowt.isundefined",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility function to validate if a value is undefined",
   "keywords": [
     "nowt",
@@ -39,6 +39,6 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   }
 }

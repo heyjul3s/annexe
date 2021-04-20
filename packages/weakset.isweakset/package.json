@@ -1,6 +1,6 @@
 {
   "name": "@annexe/weakset.isweakset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility function to check if a value is of Weak Set type.",
   "keywords": [
     "weakset",
@@ -36,6 +36,6 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   }
 }

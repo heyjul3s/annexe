@@ -1,6 +1,6 @@
 {
   "name": "@annexe/weakset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All annexe weakset utility functions under namespace \"weakset\".",
   "keywords": [
     "weakset",
@@ -36,9 +36,9 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/weakset.isweakset": "^0.1.0"
+    "@annexe/weakset.isweakset": "^0.1.1"
   }
 }

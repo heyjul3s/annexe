@@ -1,6 +1,6 @@
 {
   "name": "@annexe/string.isstring",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Typescript utility function to assert whether a value is a string.",
   "keywords": [
     "string",
@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   }
 }

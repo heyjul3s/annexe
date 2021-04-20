@@ -1,6 +1,6 @@
 {
   "name": "@annexe/nowt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All annexe nowt utility functions under namespace \"nowt\".",
   "keywords": [
     "nowt",
@@ -39,11 +39,11 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/nowt.isnil": "^0.1.0",
-    "@annexe/nowt.isnull": "^0.1.0",
-    "@annexe/nowt.isundefined": "^0.1.0"
+    "@annexe/nowt.isnil": "^0.1.1",
+    "@annexe/nowt.isnull": "^0.1.1",
+    "@annexe/nowt.isundefined": "^0.1.1"
   }
 }
