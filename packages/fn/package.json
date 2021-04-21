@@ -1,0 +1,45 @@
+{
+  "name": "@annexe/fn",
+  "version": "0.1.1",
+  "description": "All annexe function methods under namespace \"fn\".",
+  "keywords": [
+    "function",
+    "utilities",
+    "util"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "module": "dist/fn.esm.js",
+  "main": "dist/fn.cjs.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.1"
+  },
+  "dependencies": {
+    "@annexe/fn.partial": "^0.1.1",
+    "@annexe/fn.partialright": "^0.1.1"
+  }
+}

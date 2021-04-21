@@ -1,16 +1,97 @@
 {
   "files": [
     {
-      "path": "./packages/annexe/dist/*.js"
+      "path": "./packages/fn/dist/*.js"
     },
     {
-      "path": "./packages/isfloat/dist/*.js"
+      "path": "./packages/fn.partial/dist/*.js"
     },
     {
-      "path": "./packages/isnumber/dist/*.js"
+      "path": "./packages/fn.partialright/dist/*.js"
     },
     {
-      "path": "./packages/isstring/dist/*.js"
+      "path": "./packages/array/dist/*.js"
+    },
+    {
+      "path": "./packages/array.first/dist/*.js"
+    },
+    {
+      "path": "./packages/array.last/dist/*.js"
+    },
+    {
+      "path": "./packages/array.head/dist/*.js"
+    },
+    {
+      "path": "./packages/array.tail/dist/*.js"
+    },
+    {
+      "path": "./packages/array.reverse/dist/*.js"
+    },
+    {
+      "path": "./packages/array.istypedarray/dist/*.js"
+    },
+    {
+      "path": "./packages/map/dist/*.js"
+    },
+    {
+      "path": "./packages/map.ismap/dist/*.js"
+    },
+    {
+      "path": "./packages/nowt/dist/*.js"
+    },
+    {
+      "path": "./packages/nowt.isnil/dist/*.js"
+    },
+    {
+      "path": "./packages/nowt.isnull/dist/*.js"
+    },
+    {
+      "path": "./packages/nowt.isundefined/dist/*.js"
+    },
+    {
+      "path": "./packages/number/dist/*.js"
+    },
+    {
+      "path": "./packages/number.isnumber/dist/*.js"
+    },
+    {
+      "path": "./packages/number.isfinite/dist/*.js"
+    },
+    {
+      "path": "./packages/number.isfloat/dist/*.js"
+    },
+    {
+      "path": "./packages/object/dist/*.js"
+    },
+    {
+      "path": "./packages/object.isplainobject/dist/*.js"
+    },
+    {
+      "path": "./packages/set/dist/*.js"
+    },
+    {
+      "path": "./packages/set.isset/dist/*.js"
+    },
+    {
+      "path": "./packages/string/dist/*.js"
+    },
+    {
+      "path": "./packages/string.isstring/dist/*.js"
+    },
+    {
+      "path": "./packages/string.isemptystring/dist/*.js"
+    },
+    {
+      "path": "./packages/weakmap/dist/*.js"
+    },
+    {
+      "path": "./packages/weakmap.isweakmap/dist/*.js"
+    },
+    {
+      "path": "./packages/weakset/dist/*.js"
+    },
+    {
+      "path": "./packages/weakset.isweakset/dist/*.js"
     }
   ]
 }

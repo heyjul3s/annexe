@@ -1,0 +1,45 @@
+{
+  "name": "@annexe/string.isemptystring",
+  "version": "0.1.1",
+  "description": "A utility function to check if a string is empty.",
+  "keywords": [
+    "string",
+    "utilities",
+    "util"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "sideEffects": false,
+  "module": "dist/string.isemptystring.esm.js",
+  "main": "dist/string.isemptystring.cjs.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.1"
+  },
+  "dependencies": {
+    "@annexe/string.isstring": "^0.1.1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@annexe/weakset.isweakset",
+  "version": "0.1.1",
+  "description": "A utility function to check if a value is of Weak Set type.",
+  "keywords": [
+    "weakset",
+    "utilities"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/weakset.isweakset.cjs.js",
+  "module": "dist/weakset.isweakset.esm.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.1"
+  }
+}

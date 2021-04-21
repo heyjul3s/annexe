@@ -1,0 +1,44 @@
+{
+  "name": "@annexe/weakmap",
+  "version": "0.1.1",
+  "description": "All annexe weakmap utility functions under namespace \"weakmap\".",
+  "keywords": [
+    "weakmap",
+    "utilities"
+  ],
+  "author": "Julian Low",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/weakmap.cjs.js",
+  "module": "dist/weakmap.esm.js",
+  "src": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjul3s/annexe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rimraf dist && bundler"
+  },
+  "bugs": {
+    "url": "https://github.com/heyjul3s/annexe/issues"
+  },
+  "homepage": "https://github.com/heyjul3s/annexe#readme",
+  "devDependencies": {
+    "@annexe/bundler": "^0.1.1"
+  },
+  "dependencies": {
+    "@annexe/weakmap.isweakmap": "^0.1.1"
+  }
+}

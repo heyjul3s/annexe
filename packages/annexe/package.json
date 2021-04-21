@@ -1,6 +1,6 @@
 {
   "name": "annexe",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A general, modular Typescript utilities library for your everyday coding.",
   "keywords": [
     "modules",
@@ -35,12 +35,19 @@
   },
   "homepage": "https://github.com/heyjul3s/annexe#readme",
   "devDependencies": {
-    "@annexe/bundler": "^0.1.0"
+    "@annexe/bundler": "^0.1.1"
   },
   "dependencies": {
-    "@annexe/isfloat": "^0.1.0",
-    "@annexe/isnumber": "^0.1.1",
-    "@annexe/isstring": "^0.1.0"
+    "@annexe/array": "^0.1.1",
+    "@annexe/fn": "^0.1.1",
+    "@annexe/map": "^0.1.1",
+    "@annexe/nowt": "^0.1.1",
+    "@annexe/number": "^0.1.1",
+    "@annexe/object": "^0.1.1",
+    "@annexe/set": "^0.1.1",
+    "@annexe/string": "^0.1.1",
+    "@annexe/weakmap": "^0.1.1",
+    "@annexe/weakset": "^0.1.1"
   },
   "publishConfig": {
     "access": "public"
