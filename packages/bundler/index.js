@@ -39,7 +39,7 @@ const inputOptions = {
 
 const baseOutputOptions = {
   name: `${fileName}`,
-  sourcemap: true,
+  sourcemap: false,
   exports: 'named'
 };
 
